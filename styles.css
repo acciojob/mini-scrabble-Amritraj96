@@ -1,2 +1,26 @@
 
 /* Your CSS Code here. */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+#evaluatedText {
+    padding: 5px 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    width: 200px;
+}
+
+/* Changes the border color to blue when you click inside the textbox */
+#evaluatedText:focus {
+    border: 2px solid #0056b3;
+}
+
+#letterCount {
+    font-size: 28px;
+    margin-top: 15px;
+    font-weight: bold;
+}
